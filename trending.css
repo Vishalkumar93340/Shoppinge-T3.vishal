@@ -1,0 +1,116 @@
+.btn1 button {
+    background-color: orangered;
+    border-radius: 25px;
+}
+
+.txt {
+    margin-top: 200px;
+
+
+}
+
+
+
+.tg {
+    background-color: antiquewhite;
+}
+
+.colorss {
+    background-color: #f9efe5;
+ 
+
+}
+
+.colorss button {
+    border-radius: 50%;
+    padding: 10px;
+    margin: 2px;
+    border: none;
+}
+
+.colorss input {
+    padding: 10px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.colorss input:hover {
+    transform: scale(1.5);
+}
+
+.btm {
+    background-color: orangered;
+    border-radius: 0%;
+    padding: 0%;
+    border: none;
+}
+
+.heading {
+
+    color: white;
+    background-color: rgb(97, 97, 97);
+
+}
+
+.heading button:hover {
+    border: none;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    /* background-color: rgb(29, 142, 241); */
+}
+
+.design button {
+    border-radius: 50px;
+    background-color: bisque;
+    color: red;
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+    border: none;
+}
+
+.nwcd {
+    background-color: #f9efe5;
+}
+
+.badlyadv button:hover {
+    border: none;
+    border: 2px solid rgb(0, 225, 246);
+    border-radius: 30px;
+    background-color: white;
+    color: rgb(204, 0, 0);
+    /* background-color: rgb(29, 142, 241); */
+}
+.badlyadv button{
+    background-color: rgb(249, 69, 69);
+    border-radius: 25px;
+    
+}
+.vbydv{
+    color: white;
+    background-color: rgb(97, 97, 97);
+
+}
+
+.logo1 button{
+    border-radius: 50px;
+    background-color:rgb(74, 17, 17);
+    color: white;
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+    border: none;
+   margin: 5px;
+}
+.Sub button:hover{
+    background-color: white;
+    color: rgb(255, 255, 255);
+    border:solid rgb(23, 6, 0);
+    }
+    .firstcrd{
+        border-radius: 25px;
+    }
+    
