@@ -1,6 +1,22 @@
+* body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
 .btn1 button {
-    background-color: orangered;
+    background-color: rgb(218, 107, 67);
+    color: white;
     border-radius: 25px;
+    height: 50px;
+    width: 260px;
+}
+
+.btn1 button:hover {
+    border: none;
+    border: 2px solid rgb(218, 107, 67);
+    border-radius: 30px;
+    background-color: white;
+    color: rgb(204, 0, 0);
 }
 
 .txt {
@@ -15,7 +31,7 @@
 
 .colorss {
     background-color: #f9efe5;
- 
+
 
 
 }
@@ -25,7 +41,9 @@
     padding: 10px;
     margin: 2px;
     border: none;
+   
 }
+
 /* .colorss button:hover{
   
     border: none;
@@ -37,9 +55,12 @@
 
 .colorss input {
     padding: 9px;
-    border: 1px solid ;
+    border: 1px solid;
     border-radius: 7px;
     padding-left: 8px;
+    justify-content: center;
+    text-align: center;
+
 }
 
 .colorss input:hover {
@@ -62,12 +83,14 @@
 
 .heading button:hover {
     border: none;
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: white;
-    color: black;
-    /* background-color: rgb(29, 142, 241); */
+    border: 1px solid rgb(218, 107, 67);
+    border-radius: 30px;
+    background-color: grey;
+    color: rgb(218, 107, 67)
 }
+
+/* background-color: rgb(29, 142, 241); */
+
 
 .design button {
     border-radius: 50px;
@@ -83,53 +106,77 @@
     background-color: #f9efe5;
 }
 
+.heading button {
+    background-color: rgb(218, 107, 67);
+    color: white;
+    border-radius: 30px;
+}
+
 .badlyadv button:hover {
     border: none;
-    border: 2px solid rgb(0, 225, 246);
+    border: 1px solid rgb(218, 107, 67);
     border-radius: 30px;
     background-color: white;
     color: rgb(204, 0, 0);
     /* background-color: rgb(29, 142, 241); */
 }
-.badlyadv button{
-    background-color: rgb(249, 69, 69);
-    border-radius: 25px;
-    
-}
-.vbydv{
+
+.badlyadv button {
+
+    background-color: rgb(218, 107, 67);
     color: white;
-    background-color: rgb(77, 68, 68);
+    border-radius: 30px;
+}
+
+.vbydv {
+    color: white;
+    background-color: grey;
 
 }
 
-.logo1 button{
-     
+.logo1 button {
+
     border-radius: 50px;
-    background-color:rgb(74, 17, 17);
+    background-color: rgb(74, 17, 17);
     color: white;
     height: 60px;
     width: 60px;
     font-size: 30px;
     border: none;
-   margin: 4px;
+    margin: 4px;
 }
-.Sub button:hover{
+
+.Sub button:hover {
+    
+    border: none;
+    border: 1px solid rgb(218, 107, 67);
+    border-radius: 30px;
+    background-color: rgb(129, 123, 123);
+    color: rgb(218, 107, 67)
+}
+.subbutt button{
+    background-color: rgb(218, 107, 67);
+    color: white;
+    border-radius: 30px;
+    width: 300px;
+    height: 60px;
+}
+
+
+.firstcrd {
+    border-radius: 25px;
+}
+
+.imgg-section img:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(1px 1px 10px gray);
+    border-radius: 10px;
+}
+
+.logo1 button:hover {
+    border: none;
+    border: 2px solid rgb(0, 225, 246);
+    border-radius: 30px;
     background-color: white;
-    color: rgb(255, 255, 255);
-    border:solid rgb(23, 6, 0);
-    }
-    .firstcrd{
-        border-radius: 25px;
-    }
-    .imgg-section img:hover{
-        transform: scale(1.05);
-        filter: drop-shadow(1px 1px 10px gray);
-        border-radius: 10px;
-    }
-    .logo1 button:hover{
-        border: none;
-        border: 2px solid rgb(0, 225, 246);
-        border-radius: 30px;
-        background-color: white;
-        color: rgb(204, 0, 0);
-    }
+    color: rgb(204, 0, 0);
+}
