@@ -29,43 +29,51 @@
     background-color: antiquewhite;
 }
 
-.colorss {
-    background-color: #f9efe5;
-
-
-
-}
-
-.colorss button {
-    text-align: center;
-    border-radius: 50%;
-    padding: 10px;
-    margin: 2px;
-    border: none;
-   
-}
-
-/* .colorss button:hover{
-  
-    border: none;
-        border: 2px solid rgb(0, 225, 246);
-        border-radius: 30px;
-        background-color: white;
-        color: rgb(204, 0, 0);
-} */
-
-.colorss input {
-    padding: 9px;
-    border: 1px solid;
-    border-radius: 7px;
-    padding-left: 8px;
-    justify-content: center;
+.colors1 {
     text-align: center;
 
 }
 
-.colorss input:hover {
-    transform: scale(1.03);
+.colors1 button {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+
+
+}
+
+
+.ss:hover {
+    border: solid 1px #E56639;
+    color: #E56639;
+
+}
+
+.mm:hover {
+    border: solid 1px #E56639;
+    color: #E56639;
+}
+
+.ll:hover {
+    border: solid 1px #E56639;
+    color: #E56639;
+}
+
+.xll:hover {
+    border: solid 1px #E56639;
+    color: #E56639;
+}
+
+.cartbtn {
+    background-color: #E56639;
+    font-weight: bold;
+}
+
+.cartbtn:hover {
+    color: #E56639;
+    background-color: white;
+    border: solid 1px #E56639;
 }
 
 /* .btm {
@@ -78,6 +86,7 @@
 .heading {
 
     color: white;
+
     background-color: rgb(97, 97, 97);
 
 }
@@ -85,9 +94,17 @@
 .heading button:hover {
     border: none;
     border: 1px solid rgb(218, 107, 67);
-    border-radius: 30px;
+    border-radius: 17px;
     background-color: grey;
     color: rgb(218, 107, 67)
+}
+
+.heading button {
+    background-color: rgb(218, 107, 67);
+    color: white;
+    height: 60px;
+    width: auto;
+    border-radius: 17px;
 }
 
 /* background-color: rgb(29, 142, 241); */
@@ -99,7 +116,7 @@
     color: red;
     height: 60px;
     width: 60px;
-    font-size: 30px;
+    font-size: 17px;
     border: none;
 }
 
@@ -107,26 +124,22 @@
     background-color: #f9efe5;
 }
 
-.heading button {
+.badlyadv button {
+       text-align: center;
     background-color: rgb(218, 107, 67);
     color: white;
-    border-radius: 30px;
+    height: 60px;
+    width: auto;
+    border-radius: 17px;
 }
 
 .badlyadv button:hover {
     border: none;
     border: 1px solid rgb(218, 107, 67);
-    border-radius: 30px;
+    border-radius: 17px;
     background-color: white;
     color: rgb(204, 0, 0);
     /* background-color: rgb(29, 142, 241); */
-}
-
-.badlyadv button {
-
-    background-color: rgb(218, 107, 67);
-    color: white;
-    border-radius: 30px;
 }
 
 .vbydv {
@@ -137,25 +150,26 @@
 
 .logo1 button {
 
-    border-radius: 50px;
-    background-color: rgb(74, 17, 17);
+    border-radius: 60px;
+    background-color: rgb(0, 0, 0);
     color: white;
     height: 60px;
     width: 60px;
-    font-size: 30px;
+    font-size: 35px;
     border: none;
     margin: 4px;
 }
 
-.Sub button:hover {
-    
+.subbutt button:hover {
+
     border: none;
     border: 1px solid rgb(218, 107, 67);
     border-radius: 30px;
     background-color: rgb(129, 123, 123);
     color: rgb(218, 107, 67)
 }
-.subbutt button{
+
+.subbutt button {
     background-color: rgb(218, 107, 67);
     color: white;
     border-radius: 30px;
@@ -173,11 +187,177 @@
     filter: drop-shadow(1px 1px 10px gray);
     border-radius: 10px;
 }
-
+/* 
 .logo1 button:hover {
     border: none;
-    border: 2px solid rgb(0, 225, 246);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 30px;
     background-color: white;
     color: rgb(204, 0, 0);
-}
+} */
+
+
+/* .......................... */
+#products {
+    width: 187px;
+    height: 187px;
+    background-image: url(img/img-1.webp);
+    background-size: cover; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+    height: auto;
+    width: auto;
+  }
+   
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.418);
+    text-align: center;
+    padding: 45% 0;
+    opacity: 0;
+    transition: opacity .25s ease;
+  }
+  .overlay i{
+    font-size: 30px;
+    color: white;
+  }
+   
+  #products:hover .overlay {
+    opacity: 0.9;
+  }
+   
+  #products:hover {
+    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+  }
+   
+  .read-article {
+    font-family: HelveticaNeueLTStd;
+    font-weight: 400;
+    font-size: .85rem;
+    text-transform: uppercase;
+    padding-bottom: .25rem;
+    color: white;
+  }
+  #products1 {
+    width: 187px;
+    height: 187px;
+    background-image: url(img/img-2.webp);
+    background-size: cover; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+    height: auto;
+    width: auto;
+  }
+  #products1:hover .overlay {
+    opacity: 0.9;
+  }
+   
+  #products1:hover {
+    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+  }
+  #products2 {
+    width: 187px;
+    height: 187px;
+    background-image: url(img/img-3.webp);
+    background-size: cover; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+    height: auto;
+    width: auto;
+  }
+  #products2:hover .overlay {
+    opacity: 0.9;
+  }
+   
+  #products2:hover {
+    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+  }
+  
+  #products3 {
+    width: 187px;
+    height: 187px;
+    background-image: url(img/img-4.webp);
+    background-size: cover; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+    height: auto;
+    width: auto;
+  }
+  #products3:hover .overlay {
+    opacity: 0.9;
+  }
+   
+  #products3:hover {
+    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+  }
+  
+  #products4 {
+    width: 187px;
+    height: 187px;
+    background-image: url(img/img-5.webp);
+    background-size: cover; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+    height: auto;
+    width: auto;
+  }
+  #products4:hover .overlay {
+    opacity: 0.9;
+  }
+   
+  #products4:hover {
+    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+  }
+  #products5 {
+    width: 187px;
+    height: 187px;
+    background-image: url(img/img-6.webp);
+    background-size: cover; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+    height: auto;
+    width: auto;
+  }
+  #products5:hover .overlay {
+    opacity: 0.9;
+  }
+   
+  #products5:hover {
+    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+  }
+  
+  #products6 {
+    width: 187px;
+    height: 187px;
+    background-image: url(img/img-7.webp);
+    background-size: cover; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+    height: auto;
+    width: auto;
+  }
+  #products6:hover .overlay {
+    opacity: 0.9;
+  }
+   
+  #products6:hover {
+    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+  }
+  
+  #products7 {
+    width: 187px;
+    height: 187px;
+    background-image: url(img/img-8.webp);
+    background-size: cover; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+    height: auto;
+    width: auto;
+  }
+  #products7:hover .overlay {
+    opacity: 0.9;
+  }
+   
+  #products7:hover {
+    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+  }
+  
